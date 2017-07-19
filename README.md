@@ -4,6 +4,7 @@ Retraining the final layer of Google's Inception (TensorFlow)
 
 ## Step1: Download the pre-trained model and the required scripts.
 git clone https://github.com/akashsonth/Retrain-Inception
+
 cd Retrain-Inception
 
 
