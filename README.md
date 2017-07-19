@@ -39,9 +39,9 @@ python retrain.py --model_dir ./inception --image_dir ~/flowers --output_graph .
 
 
 ## Step 4: Getting the labels and output file
-1. Rename the file named 'output' which is formed after Step 3 to 'output.pb'
-2. Copy the file output_lables.txt from tmp folder in root directory to Retrain-Inception directory
-3. Rename the copied file in Retrain-Inception to labels.txt
+1. Rename the file named 'output' which is formed after Step 3 in 'Retrain-Inception' directory to 'output.pb'
+2. Copy the file 'output_lables.txt' from 'tmp' folder in root directory to 'Retrain-Inception' directory
+3. Rename the copied file in 'Retrain-Inception' to 'labels.txt'
 
 
 ## Step 5: Testing the retrained model
