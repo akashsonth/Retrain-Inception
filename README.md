@@ -44,16 +44,9 @@ python retrain.py --model_dir ./inception --image_dir ~/flowers --output_graph .
 
 
 ## Step 5: Testing the retrained model
+1. Make sure the retrain_model_classifier.py is in the same folder as the retrained model and labels file.
+2. Run the following command
 python retrain_model_classifier.py <image_path>
-#following is an example of classifying an image present in Pictures directory 
+Following is an example of classifying an image present in Pictures directory 
 python retrain_model_classifier.py /home/akshay/Pictures/test_image_flower.jpg
- 
-#following is an example output
- 
-"""
- 
-rose ( score=0.78)
- 
-tulips( score=0.14)
- 
-others( score =0.02)
+
